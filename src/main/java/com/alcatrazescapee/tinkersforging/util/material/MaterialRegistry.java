@@ -29,13 +29,13 @@ public final class MaterialRegistry
         addMaterial(new MaterialType("gold", Item.ToolMaterial.GOLD, new Color(255, 248, 53).getRGB(), 1, 700f, 1100f));
 
         // Common Modded Materials
-        addMaterial(new MaterialType("copper", new Color(207, 134, 101).getRGB(), 1, 600f, 1000f));
-        addMaterial(new MaterialType("tin", new Color(120, 143, 149).getRGB(), 1, 150f, 300f));
-        addMaterial(new MaterialType("bronze", new Color(184, 115, 51).getRGB(), 2, 700f, 950f));
-        addMaterial(new MaterialType("steel", new Color(128, 128, 128).getRGB(), 3, 950f, 1350f));
-        addMaterial(new MaterialType("lead", new Color(101, 82, 127).getRGB(), 1, 200f, 350f));
-        addMaterial(new MaterialType("silver", new Color(239, 246, 255).getRGB(), 1, 700f, 950f));
-        addMaterial(new MaterialType("aluminium", new Color(224, 224, 224).getRGB(), 1, 450f, 700f));
+        addMaterial(new MaterialType("copper", new Color(184, 115, 51).getRGB(), 1, 600f, 1000f));
+        addMaterial(new MaterialType("bismuth bronze", new Color(120, 143, 149).getRGB(), 2, 150f, 300f));
+        addMaterial(new MaterialType("wrought iron", new Color(128, 128, 128).getRGB(), 3, 950f, 1350f));
+        addMaterial(new MaterialType("steel", new Color(50, 48, 51).getRGB(), 4, 200f, 350f));
+        addMaterial(new MaterialType("black steel", new Color(2, 2, 3).getRGB(), 5, 700f, 950f));
+        addMaterial(new MaterialType("red steel", new Color(137, 0, 4).getRGB(), 6, 450f, 700f));
+        addMaterial(new MaterialType("blue steel", new Color(0, 5, 137).getRGB(), 6, 450f, 700f));
 
         // NTP Compat Materials
         NTP_MATERIALS.addAll(Arrays.asList("iron", "gold", "tin", "copper", "bronze", "steel"));
